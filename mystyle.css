@@ -1,5 +1,5 @@
 body {
-    font: 15px/1.5 Helvetica, sans-serif;
+    font: 20px/1.5 Helvetica, sans-serif;
     height: 100%
     padding: 0;
     margin: 0;
@@ -52,7 +52,7 @@ nav li a {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
-    width: 45%;
+    width: 75%;
     margin: auto;
 }
 
@@ -88,22 +88,37 @@ i {
     padding: 50px
 }
 
-#services {
+.title {
+    font-size: 68px;
+}
+
+.subtitle {
+    font-size: 38px;
+}
+.service {
     text-align: center;
-    
-}   
+    font-size: 68px;
+    padding: 50px;
+}
 
 .row {
-    width: 100%
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 250px;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .row_cell {
-    width: 200px;
+    width: 33vh;
     height: 200px;
-    display: inline-block;
-    text-align: center;
-    margin: 1em 4em;
-    
+    margin: 20px;
+}
+
+#contact {
     
 }
 
