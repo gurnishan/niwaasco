@@ -101,24 +101,4 @@ i {
     padding: 50px;
 }
 
-.row {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 250px;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.row_cell {
-    width: 33vh;
-    height: 200px;
-    margin: 20px;
-}
-
-#contact {
-    
-}
 
