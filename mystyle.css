@@ -1,0 +1,109 @@
+body {
+    font: 15px/1.5 Helvetica, sans-serif;
+    height: 100%
+    padding: 0;
+    margin: 0;
+    color: #95989A;
+}
+
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+nav {
+    width: 100%;
+    background-color: none;
+    position: absolute;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 35px;
+    padding-right: 1px;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 25px;
+    color: #95989A;
+    font-size: 15px;
+}
+
+#herosec {
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-image {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    width: 45%;
+    margin: auto;
+}
+
+.hero-text {
+    position: relatve;
+    text-align: center;
+}
+
+.arroww {
+    position:fixed;
+    top: 55vh;
+    transform: translateY(-55%);
+    width: 100%;
+
+    
+}
+
+i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 25px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    
+}
+
+#aboutus {
+    text-align: center;
+    padding: 50px
+}
+
+#services {
+    text-align: center;
+    
+}   
+
+.row {
+    width: 100%
+}
+
+.row_cell {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 1em 4em;
+    
+    
+}
+
