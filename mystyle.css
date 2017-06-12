@@ -101,4 +101,44 @@ i {
     padding: 50px;
 }
 
+.row {
+    text-align: center;
+    padding: 0;
+    margin: 0px 90px 0px 90px;
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
 
+.row_cell {
+    padding: 0px;
+    width: 350px;
+    height: 15opx;
+    margin-top: 10px;
+}
+
+#contact {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 300px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    font-size: 15px;
+    
+}
