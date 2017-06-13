@@ -103,7 +103,8 @@ nav .icon {
 
 .row_cell {
     padding-right: 0px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     height: 15opx;
 }
 
