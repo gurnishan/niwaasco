@@ -133,4 +133,7 @@ input {
     nav ul{
         display:none;     
     }
+    div {
+        width: 100%
+    }
 }
