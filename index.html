@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="arrow.js"></script>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
     <title>Niwaas Co. | Real Estate Services | Brampton</title>
 </head>
 
@@ -9,9 +11,9 @@
 <body>
     
     <header>
-            <nav>
+            <nav class="topnav" id="myTopnav">
                 <img class="logo" src="img/logo2.svg">
-                <ul>
+                    <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#AboutUs">About Us</a></li>
                     <li><a href="#buy">Buy</a></li>
@@ -19,21 +21,26 @@
                     <li><a href="#invest">Invest</a></li>
                     <li><a href="#contactus">Contact Us</a></li>
                     <li><a href="#blog">Blog</a></li>
-                </ul>                        
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
+                </ul>   
+
             </nav>
     </header>
+    
+<div class="arrow bounce">
+
+</div>
     
     <section id="herosec">
          <div class="hero-image">
             <img class="center" class="vcenter" src="img/logo.svg">
                 <div class="hero-text">
-                    <p id="herotext"> The doorway to finding your perfect home</p>
-                </div>
-             <div class="arroww">
-                 <i class="arrow down"></i>
-             </div>
-        </div>      
+                    <p id="herotext"> The doorway to finding your perfect home</p>  
+        </div>
+        </div>
     </section>
+    
+
     
     <section id="aboutus">
         <div id="aboutus">
