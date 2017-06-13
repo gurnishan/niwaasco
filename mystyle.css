@@ -103,17 +103,15 @@ i {
 
 .row {
     text-align: center;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: center;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
 }
 
 .row_cell {
-    padding: 0px;
-    width: 350px;
+    padding-right: 0px;
+    width: 450px;
     height: 15opx;
-    margin-top: 10px;
 }
 
 #contact {
