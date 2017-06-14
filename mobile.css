@@ -57,7 +57,54 @@ nav .icon {
     margin: auto;
 }
 
+#aboutus {
+    text-align: center;
+    padding: 50px
+}
 
+.title {
+    font-size: 68px;
+}
 
+.subtitle {
+    font-size: 38px;
+}
+.service {
+    text-align: center;
+    font-size: 68px;
+    padding: 50px;
+}
 
+.row {
+    text-align: center;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+}
 
+.row_cell {
+    padding-right: 0px;
+    width: 100%;
+    max-width: 450px;
+}
+
+#contact {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 300px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    font-size: 15px;
+    
+}
