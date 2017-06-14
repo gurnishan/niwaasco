@@ -57,6 +57,13 @@ nav .icon {
     margin: auto;
 }
 
+.hero-text {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+}
+
 #aboutus {
     text-align: center;
     padding: 50px
