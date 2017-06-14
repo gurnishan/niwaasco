@@ -62,7 +62,7 @@ nav .icon {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
-    max-width: 75%;
+    width: 75vh;
     margin: auto;
 }
 
@@ -101,7 +101,6 @@ nav .icon {
 
 .row_cell {
     padding-right: 0px;
-    width: 100%;
     max-width: 450px;
 }
 
